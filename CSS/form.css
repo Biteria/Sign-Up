@@ -1,0 +1,53 @@
+form{
+    display: inline-block;
+    width: 100%;
+}
+    .form-row{
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 0;
+}
+    .no-margin{
+        margin-bottom: 10px;
+    }
+    label{
+        display: inline-block;
+        width: 100%;
+        font-size: 12px;
+        line-height: 20px;
+        color: gainsboro;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+        padding: 5px;;
+
+    }   
+    input{
+        display: inline-block;
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid gainsboro;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    input:hover{
+        background-color: gainsboro;
+
+    }
+    input:focus{
+        outline: none;
+        background-color: khaki;
+    }
+    .form-row-no-margin{
+        display: inline-block;
+        padding-top: 108px;
+        /* padding-bottom: 10px; */
+        /* margin-left: 25px; */
+        /* margin-right: 25px; */
+        font-size: 16px;
+        line-height: 20px;
+        color: gray;
+    }
+    .form-row-no-margin > a{
+        color: #3349A6;
+        text-decoration: none;
+    }
